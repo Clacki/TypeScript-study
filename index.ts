@@ -11,7 +11,7 @@
 export {};
 
 // 1. string
-let myString: string = "hello";
+let myString: string = "안녕하세요";
 console.log("String:", myString);
 
 // 2. number
@@ -27,11 +27,11 @@ let myNull: null = null;
 console.log("Null:", myNull);
 
 // 5. any
-let myAny: any = "I can be anything";
+let myAny: any = "아무거나 집어넣어";
 console.log("Any string:", myAny);
 
 // myAny 값 변경
-myAny = 2025;
+myAny = 99999;
 console.log("changed to number:", myAny);
 
 // myAny 값 변경
